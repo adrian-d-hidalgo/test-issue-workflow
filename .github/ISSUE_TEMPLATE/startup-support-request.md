@@ -3,7 +3,7 @@ name: Startup Support Request
 about: Hubs can request DevRel support to provide technical guidance and resources
   to startups.
 title: ''
-labels: ''
+labels: startup
 assignees: ''
 
 ---
