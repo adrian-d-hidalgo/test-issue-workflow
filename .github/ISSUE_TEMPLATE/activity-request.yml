@@ -27,7 +27,7 @@ body:
       description: Please explain your request
       render: shell
     validations:
-      required: false
+      required: true
   - type: checkboxes
     id: terms
     attributes:
@@ -37,4 +37,4 @@ body:
         - label: I agree to follow this project's Code of Conduct
           required: true
     validations:
-      required: false
+      required: true
