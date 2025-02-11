@@ -6,10 +6,6 @@ labels: startup
 assignees: ""
 ---
 
-## Startup Onboarding & Support Request
-
-Hubs can request DevRel support to provide technical guidance and resources to assist startups in their growth.
-
 ### Startup Name:
 
 What is the name of the startup?  
