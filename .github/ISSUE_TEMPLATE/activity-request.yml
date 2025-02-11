@@ -1,7 +1,7 @@
 name: Activity Request
 description: Create and activity request for get support from DevRels Association.
 title: "[Activity]: "
-labels: ["request"]
+labels: ["activity"]
 projects: ["adrian-d-hidalgo/3"]
 body:
   - type: markdown
