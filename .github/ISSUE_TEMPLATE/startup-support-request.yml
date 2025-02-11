@@ -1,0 +1,81 @@
+name: Startup Onboarding & Support Request
+description: Request DevRel support for onboarding and technical guidance for a startup.
+title: "[Startup Support]: "
+labels: ["startup"]
+projects: ["adrian-d-hidalgo/3"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Startup Onboarding & Support Request
+        Thank you for submitting your request! Please provide the details below so we can assist you effectively.
+
+  - type: input
+    id: startup-name
+    attributes:
+      label: Startup Name
+      description: What is the name of the startup?
+      placeholder: e.g. NextGen Web3 Inc.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: startup-hub
+    attributes:
+      label: Startup Hub
+      description: Which hub is supporting or working with this startup?
+      options:
+        - Hub 1
+        - Hub 2
+        - Hub 3
+        - Hub 4
+        - Other (Specify in Additional Details)
+    validations:
+      required: true
+
+  - type: input
+    id: startup-website
+    attributes:
+      label: Website / Product Link (if available)
+      description: Provide a link to the startup's website or product.
+      placeholder: e.g. https://nextgenweb3.io
+    validations:
+      required: false
+
+  - type: textarea
+    id: startup-description
+    attributes:
+      label: Startup Description
+      description: Provide a brief description of what the startup does.
+      placeholder: e.g. A Web3 startup building decentralized identity solutions...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: devrel-support-needed
+    attributes:
+      label: Type of DevRel Support Needed
+      description: What kind of support does your startup require?
+      options:
+        - Technical Mentorship
+        - Architecture Guidance
+        - Integration Support
+        - Developer Resources & Documentation
+        - Other (Specify in Description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: support-details
+    attributes:
+      label: Additional Details
+      description: Provide more details on the kind of support required, expected responsibilities, and any other relevant information.
+      placeholder: e.g. We need guidance on integrating our solution with ICP smart contracts...
+    validations:
+      required: true
+
+  - type: input
+    id: contact-person
+    attributes:
+      label: Contact Person
+      description: Who should we reach
