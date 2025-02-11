@@ -2,7 +2,7 @@ name: Activity Request
 description: Create and activity request for get support from DevRels Association.
 title: "[Activity]: "
 labels: ["request"]
-projects: ["test-issue-project"]
+projects: ["adrian-d-hidalgo/3"]
 body:
   - type: markdown
     attributes:
@@ -26,6 +26,8 @@ body:
       label: Description
       description: Please explain your request
       render: shell
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
@@ -34,3 +36,5 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+    validations:
+      required: false
