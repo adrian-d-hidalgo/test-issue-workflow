@@ -1,11 +1,9 @@
 ---
 name: Startup Support Request
-about: Hubs can request DevRel support to provide technical guidance and resources
-  to startups.
+about: Hubs can request DevRel support to provide technical guidance and resources to startups.
 title: "[Startup Support]"
 labels: startup
-assignees: ''
-
+assignees: ""
 ---
 
 ### Startup Name: What is the name of the startup?

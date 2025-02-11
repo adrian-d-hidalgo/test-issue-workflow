@@ -1,11 +1,9 @@
 ---
 name: Hackathon Support Request
-about: Hubs can request DevRel support to assist with providing technical guidance,
-  mentorship, and resources for hackathons.
+about: Hubs can request DevRel support to assist with providing technical guidance, mentorship, and resources for hackathons.
 title: "[Hackathon Support]"
 labels: hackathon, startup
-assignees: ''
-
+assignees: ""
 ---
 
 ### Hackathon Name: What is the name of the hackathon?
